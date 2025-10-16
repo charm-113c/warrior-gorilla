@@ -1,4 +1,14 @@
 {
-  "shiba-theme-settings@@shiba-colors-theme-dark": "Lilac-dark",
-  "shiba-theme-settings@@shiba-accent-colors": "accent-green"
+  "shiba-theme-settings@@shiba-colors-theme-dark": "pure-dark",
+  "shiba-theme-settings@@shiba-accent-colors": "accent-red",
+  "shiba-theme-settings@@shiba-colors-theme-light": "sky-light",
+  "shiba-theme-settings@@shiba-accent-style": true,
+  "encore-settings@@encore-translucency": true,
+  "encore-settings@@theme-dark": "encore-theme-dark-glass-royale",
+  "encore-settings@@encore-translucency-strength": 0.7,
+  "encore-settings@@encore-translucency-blur-amount": 5,
+  "encore-settings@@encore-highlight-border": true,
+  "encore-settings@@encore-fancy-headers": true,
+  "encore-settings@@colors": "encore-colors-colorful",
+  "encore-settings@@encore-translucency-background": "encore-bg-sapphire"
 }

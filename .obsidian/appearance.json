@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Shiba Inu"
+  "cssTheme": "Encore",
+  "theme": "obsidian",
+  "nativeMenus": false,
+  "accentColor": "#00a7fa"
 }
