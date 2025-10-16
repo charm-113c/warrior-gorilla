@@ -81,7 +81,7 @@ How do we determine that a prediction is correct? And how many correct predictio
 How do we deal with the massive class imbalance between benign and malicious packets?
 How do we obtain the data we want to train the model in the first place? What kind of pre-processing would we need for the packets? Will they be vectorised/encoded, kept as is, or something else?
 
-## A potential alternative
+## Conclusion and potential alternative
 
 Taking all this into account, it's clear that to keep this idea within the scope of a bachelor thesis, a lot of careful thought and consideration is necessary.
 What's more, it's obvious that posing restrictions will have an impact on the reach and usefulness of this thesis, and it would really serve as a building block for future research.
@@ -89,5 +89,6 @@ Even with these restrictions, this project could still prove challenging to real
 With those things in mind, I have begun exploring an alternative idea that may have broader applications. It is as follows:
 *Instead of predicting a packet, it would be simpler to predict an attack.*
 More precisely, we could instead predict the chances that a current stream of packets is an attack, and update the prediction with every new packet that comes.
-This is much closer to what current anomaly-based IDSs are doing, and admittedly it lacks the originality of the previous idea.
-In exchange, it is simpler and has a broader range of application.
+This is much closer to what current anomaly-based IDSs are doing, and while it may lack the originality of the previous idea, it is simpler and has a broader range of application.
+
+This alternative is explored further in the next file, "[[Predicting an attack]]".
